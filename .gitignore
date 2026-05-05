@@ -1,0 +1,6 @@
+plc_config.json
+plc_data.db
+*.log
+logs/
+__pycache__/
+plc_monitor.pid

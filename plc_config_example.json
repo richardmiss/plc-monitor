@@ -1,0 +1,24 @@
+{
+  "plcs": [
+    {
+      "name": "plc_example",
+      "enabled": true,
+      "ip": "192.168.1.100",
+      "port": 502,
+      "modbus": {
+        "vw_start": 0,
+        "vw_end": 100,
+        "vd_start": 0,
+        "vd_end": 50,
+        "batch_size_vw": 30,
+        "scan_delay": 0.05
+      }
+    }
+  ],
+  "global": {
+    "scan_interval": 2,
+    "max_retry_delay": 300,
+    "data_retention_days": 30,
+    "log_dir": "logs"
+  }
+}
